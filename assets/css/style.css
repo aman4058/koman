@@ -2526,6 +2526,7 @@ img {
 .count-down-clock {
   max-width: 700px;
   margin: 0 auto;
+  opacity: 80%;
 }
 
 #clock {
