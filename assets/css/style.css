@@ -3787,6 +3787,8 @@ img {
   overflow: hidden;
 }
 
+
+
 @media (max-width: 767px) {
   .gallery-section .gallery-container .grid {
     padding: 0 5px 10px;
