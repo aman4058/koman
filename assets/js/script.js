@@ -383,15 +383,29 @@
     /*------------------------------------------
         = COUNTDOWN CLOCK
     -------------------------------------------*/
-    if ($("#clock").length) {
-        $('#clock').countdown('2022/1/17', function(event) {
-            var $this = $(this).html(event.strftime(''
-            + '<div class="box"><div>%D</div> <span>Days</span> </div>'
-            + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
-            + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
-            + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
-        });
+    if ($("#clock").length)
+    {
+        $('#clock').countdown('2022/1/17 07:00:00 PM',function(event)
+            {
+                var $this = $(this).html(event.strftime(''
+                + '<div class="box"><div>%D</div> <span>Days</span> </div>'
+                + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
+                + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
+                + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
+            }
+
+        )
+        
+        .on('finish.countdown', function(event) {
+            $(this).html('<div class="finish"> <div><span>Happily &nbsp; &nbsp; Engaged</span> </div></div>')
+            //   .parent().addClass('disabled');
+          
+          });
+
+
     }
+    
+
 
 
     /*------------------------------------------

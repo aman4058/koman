@@ -2550,8 +2550,17 @@ img {
   line-height: 1em;
 }
 
+
+
 @media (max-width: 1199px) {
   #clock .box > div {
+    font-size: 52px;
+    font-size: 3.46667rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  #clock .finish > div {
     font-size: 52px;
     font-size: 3.46667rem;
   }
@@ -2565,6 +2574,15 @@ img {
   }
 }
 
+@media (max-width: 991px) {
+  #clock .finish > div {
+    font-size: 30px;
+    font-size: 2rem;
+    line-height: 1.3em;
+  }
+}
+
+
 #clock .box span {
   font-size: 14px;
   font-size: 0.93333rem;
@@ -2573,8 +2591,44 @@ img {
   font-weight: 500;
 }
 
+#clock .finish span {
+  font-size: 14px;
+  font-size: 1.93333rem;
+  font-weight: 200;
+  text-transform: initial;
+  font-weight: 500;
+  
+  
+}
+
+#clock .finish > div {
+  font-family : "aphroditeslimtextregular";
+  font-size: 20px;
+  font-size: 2rem;
+  margin-bottom: 0.3em;
+  line-height: 1em;
+  
+}
+
+#clock > div.finish {
+  background: rgba(6, 84, 117, 0.9);
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+
+
 @media (max-width: 767px) {
   #clock .box span {
+    font-size: 12px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #clock .finish span {
     font-size: 12px;
     font-size: 0.8rem;
   }
