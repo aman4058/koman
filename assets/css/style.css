@@ -203,7 +203,8 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  /* padding: 120px 0;   temperary change */
+  
 }
 
 @media (max-width: 991px) {
@@ -214,7 +215,8 @@ img {
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 90px 0;
+    /* padding: 90px 0;  temperary change */
+    padding: 10px 0;
   }
 }
 
@@ -4326,7 +4328,7 @@ img {
 --------------------------------------------------------------*/
 .blog-section {
   background-color: #f8f8f7;
-  padding-bottom: 65px;
+  /* padding-bottom: 65px; temporary change */
 }
 
 @media (max-width: 991px) {
