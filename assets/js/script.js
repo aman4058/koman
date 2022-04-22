@@ -398,6 +398,7 @@
         
         .on('finish.countdown', function(event) {
             $(this).html('<div class="finish"> <div><span>Happily &nbsp; &nbsp; Engaged</span> </div></div>')
+            
             //   .parent().addClass('disabled');
           
           });
