@@ -385,7 +385,7 @@
     -------------------------------------------*/
     if ($("#clock").length)
     {
-        $('#clock').countdown('2022/1/17 07:00:00 PM',function(event)
+        $('#clock').countdown('2022/11/04 08:00:00 PM',function(event)
             {
                 var $this = $(this).html(event.strftime(''
                 + '<div class="box"><div>%D</div> <span>Days</span> </div>'
@@ -395,9 +395,9 @@
             }
 
         )
-        
+                
         .on('finish.countdown', function(event) {
-            $(this).html('<div class="finish"> <div><span>Happily &nbsp; &nbsp; Engaged</span> </div></div>')
+            $(this).html('<div class="finish"> <div><span>Happily &nbsp; &nbsp; Married</span> </div></div>')
             
             //   .parent().addClass('disabled');
           
