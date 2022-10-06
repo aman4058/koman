@@ -3898,7 +3898,9 @@ img {
 }
 
 .gallery-section .video-play-btn:hover i {
-  background: #b2c9d3;
+  /* background: #b2c9d3; */
+  background: #1992c2;
+
 }
 
 /*--------------------------------------------------------------
